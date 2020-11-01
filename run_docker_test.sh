@@ -1,3 +1,4 @@
+New File in Docker
 #!/bin/bash
 set -e
 docker build --build-arg DOCKER_BASE=ubuntu:18.04 --build-arg DEVICE=cpu . -t gfootball_docker_test
